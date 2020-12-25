@@ -6,7 +6,7 @@ def run_test_pipeline():
         {
             'name': 'Unit Test',
             'title': 'Running Unit Test using Pytest',
-            'command': lambda : os.system('pytest -vv --durations=0')
+            'command': lambda : os.system('pytest -vv --durations=1')
         },
         {
             'name': 'Typing Checker',
