@@ -1,5 +1,7 @@
 # Genetic Algorithm made Right!
 
+<p align="center"><img src="https://i1.wp.com/blog.datascienceheroes.com/content/images/2019/01/evolutionary_algortihm-1.gif?w=584&ssl=1" alt="ga" /></p>
+
 My first contact with this algorithm was at my first year on college. My professor sent us a task to solve the TSP (Traveller Salesman Problem) by any means we could find! Well, my college and I decided to search for methods on the internet, and then, GA came about. 
 
 By that time, GA implementations was naive, we sought to implement every single feature, which worked a lot better than other approaches, but, because our lack of knowledge on the language (which was pure C) we couldn’t get the best solution!
@@ -7,10 +9,12 @@ By that time, GA implementations was naive, we sought to implement every single 
 Even though we got a great result, I always sought to implement it right! Now, with my python skills very rooted, I decided to put in practice, that dream.
 
 ## Summary
-- [What is GA?](#what-is-ga)
+- [What is GA?](#what-is-tsp-and-ga)
 - [Implementation](#implementation)
 
-## What is GA?
+## What is TSP and GA?
+
+<p align="center"><img src="https://www.math.uwaterloo.ca/tsp/usa50/img/olson_screen.png" alt="tsp" /></p>
 
 Genetic Algorithm is a Meta-Heuristic to solve Combinatorial Optimization Problems, those ones, which the solution is a combination of the original set. A known Problem in this area is the Traveller Salesman Problem. This problem consists in a Salesman which wants to sale his products in different cities, therefore, he does not want to spend much in his journey, so he decided to calculate which route is the quickest (or cheapest). Imagine, there are 5 cities to go, there are also **5!** different combinations which pass all the cities, calculating the distance for all those **120 possible chances** we find one which is the best. Well, 120 is cheap for a machine to calculate, but, as the number of cities scales, such as 20, gives back over **2.432902e+18** possible chances, for 100! which is **9.332622e+157** possible combinations, gives more chances than planets in the galaxies, and 100 cities is not so many if you think about it.
 
