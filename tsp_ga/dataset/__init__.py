@@ -33,7 +33,10 @@ def preprocess_data(raw_data: RawData, preprocessors: Preprocessors) -> Data:
     for preprocessor in preprocessors:
         change_list.append(preprocessor(change_list[-1]))
 
-    assert type(change_list[-1]) == Data, "Final preprocessor must return Type \
+    assert type(change_list[-1]) == list, "Final preprocessor must return Type \
         Data"
+    for each in change_list[-1]:
+        assert type(each) == tuple, "Final preprocessor must return Type \
+            Data"
 
     return change_list[-1]
