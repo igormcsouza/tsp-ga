@@ -1,8 +1,9 @@
-from typing import Callable, Tuple, List
+from typing import Callable, Tuple, List, Dict, Any
 
 
-Gene = Tuple[float, float]
+Gene = int
+GeneSetup = Dict[str, Any]
 Chromosome = List[Gene]
-ObjectiveFunction = Callable[[Chromosome], float]
+ObjectiveFunction = Callable[[Chromosome, Dict[str, Any]], float]
 Constraint = Callable[[Chromosome], bool]
 Constraints = List[Constraint]

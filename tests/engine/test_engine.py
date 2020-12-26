@@ -2,6 +2,19 @@ from tsp_ga import engine
 from tsp_ga.engine.types import Chromosome
 
 
+def test_engine_builder_setup_genes():
+    setup = {
+        'n_genes': 10,
+        'type': int
+    }
+    
+    tsp = engine\
+        .TSPGeneticAlgorithmBuilder()\
+        .setup_genes(gene_setup=setup)
+
+    assert tsp.gene_setup != None
+    assert tsp.gene_setup.get('type') == int
+
 def test_engine_builder_add_objective_function():
     tsp = engine\
         .TSPGeneticAlgorithmBuilder()\
