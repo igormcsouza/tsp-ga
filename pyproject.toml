@@ -6,6 +6,7 @@ authors = ["Igor Souza <igormcsouza@gmail.com>"]
 
 [tool.poetry.scripts]
 test = 'scripts.test:run_test_pipeline'
+main = 'scripts.application:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
