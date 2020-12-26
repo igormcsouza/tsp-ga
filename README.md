@@ -7,7 +7,7 @@ By that time, GA implementations was naive, we sought to implement every single 
 Even though we got a great result, I always sought to implement it right! Now, with my python skills very rooted, I decided to put in practice, that dream.
 
 ## Summary
-- [What is GA?](#what_is_ga)
+- [What is GA?](#what-is-ga)
 - [Implementation](#implementation)
 
 ## What is GA?
