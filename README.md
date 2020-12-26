@@ -16,7 +16,7 @@ Genetic Algorithm is a Meta-Heuristic to solve Combinatorial Optimization Proble
 
 Then, a smarter approach is needed, there are many, such as the nearest neighbour, which gives a nice result, but is very expensive. GA though, is smart and cheap solution.
 
-One can read more about it in [this very good article]( Introduction to Optimization with Genetic Algorithm (https_towardsdatascience.com) ) which explain very well how the GA works under the roots and inspired my on the matter which I couldn’t remember! The general idea is that GA use facts that happens in Darwin’s evolution theory. It strives to run through the solution web intelligently, jumping over bad solutions and walking towards better solutions, using a little of random to avoid local best solutions.
+One can read more about it in [this very good article](https://towardsdatascience.com/introduction-to-optimization-with-genetic-algorithm-2f5001d9964b) which explain very well how the GA works under the roots and inspired my on the matter which I couldn’t remember! The general idea is that GA use facts that happens in Darwin’s evolution theory. It strives to run through the solution web intelligently, jumping over bad solutions and walking towards better solutions, using a little of random to avoid local best solutions.
 
 ## Implementation
 
